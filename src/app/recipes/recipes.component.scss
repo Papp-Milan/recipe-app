@@ -1,0 +1,14 @@
+$fab-width: 56px;
+
+.recipe-container {
+    padding: 0px calc($fab-width/2);
+}
+
+button {
+    width: $fab-width;
+    height: $fab-width;
+}
+
+mat-form-field {
+    width: calc(100% - $fab-width);
+}

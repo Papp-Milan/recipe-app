@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, OnChanges } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
 import { SharedModule } from '../shared.module';
